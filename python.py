@@ -1,9 +1,9 @@
 a = 5
 b = 3
 sum = a + b
-print(" The sum is:", sum)
+print("The sum of 5+3 is", sum)
 
-number = int(input("Enter a number:"))
+number = int(input("\nPlease enter a number:"))
 if number % 2 == 0:
     print("It's even")
 else:
@@ -30,8 +30,7 @@ name = input("What is your name? ")
 print("Hello, " + name + "!")
 
 H = "Hello"
-W = "world"
+W = "World"
 def greet():
-    print(H + W)
+    print(H + " " + W)
 greet()
-
