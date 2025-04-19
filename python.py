@@ -11,6 +11,7 @@ if number % 2 == 0:
 else:
     print("It's odd")
 
+# This prints out a random number ranging from 1 to 6
 for i in range(1, 6):
     print(i)
 
